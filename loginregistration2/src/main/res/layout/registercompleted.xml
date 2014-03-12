@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:text="Congratulations you have registered to our app. Click button view main app to navigate there."/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="Firstname:"/>
+
+        <TextView
+            android:id="@+id/registerCFirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="Lastname:"/>
+
+        <TextView
+            android:id="@+id/registerCLastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="Username:"/>
+
+        <TextView
+            android:id="@+id/registerCUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="Password:"/>
+
+        <TextView
+            android:id="@+id/registerCPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="E-mail:"/>
+
+        <TextView
+            android:id="@+id/registerCEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="Birthdate:"/>
+
+        <TextView
+            android:id="@+id/registerCBirthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="Gender:"/>
+
+        <TextView
+            android:id="@+id/registerCGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="City:"/>
+
+        <TextView
+            android:id="@+id/registerCCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="ID Card:"/>
+
+        <TextView
+            android:id="@+id/registerCIDCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="T. R. N.:"/>
+
+        <TextView
+            android:id="@+id/registerCTRN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="S. S. N.:"/>
+
+        <TextView
+            android:id="@+id/registerCSSN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/registerCButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:text="Go to main App"/>
+
+
+</LinearLayout>

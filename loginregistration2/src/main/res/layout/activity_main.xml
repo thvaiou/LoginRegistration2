@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="gr.ntua.eestec.thvaiou.loginregistration.MainActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/activity_main_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="Welcome to Biomed.ntua.gr Android Application. \nIn order to proceed you need to login. Press login button below if already have an account.
+Else press the register button to create one. "
+        android:typeface="sans"
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:id="@+id/activity_main_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_main_textView"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/activity_main_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_main_textView"
+        android:layout_toRightOf="@+id/activity_main_login"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"/>
+
+</RelativeLayout>
+
